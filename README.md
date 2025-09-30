@@ -9,7 +9,7 @@ O Mario Jump é um jogo de plataforma simples onde você controla o Mario puland
 ## 🚀 Acesso Rápido
 
 - **🌐 Site Online**: [https://jumpgameproject.netlify.app/](https://jumpgameproject.netlify.app/)
-- 
+  
 ### 🎮 Como Jogar
 
 - **Pular**: Pressione a tecla `ESPAÇO` ou clique no Mario para fazer ele pular
