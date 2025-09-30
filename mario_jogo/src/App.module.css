@@ -1,0 +1,69 @@
+.gameBoard {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 15px solid rgb(35, 160, 35);
+  background: linear-gradient(#87CEEB, #E0F6FF);
+}
+
+.pipe {
+  position: absolute;
+  bottom:  0;
+  width: 80px;
+  right: 0px;
+  animation: pipeAnimation 1.5s infinite linear;
+}
+
+.mario {
+  width: 150px;
+  bottom: 0;
+  position: absolute;
+}
+
+.jump {
+  animation: jump 500ms  ease-out;
+}
+
+.clounds {
+  width: 550px;
+  position: absolute;
+  animation: clouds-animation 10s infinite linear;
+  top: 50px;
+}
+
+@keyframes pipeAnimation {
+  from {
+    right: -500px;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0;
+  }
+  40% {
+      bottom: 200px;
+  }
+  50% {
+      bottom: 180px;
+  }
+  60% {
+      bottom: 180px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes clouds-animation {
+  from {
+    right: -550px;
+  }
+  to {
+    right: 100%;
+  }
+}
