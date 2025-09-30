@@ -6,6 +6,10 @@ Um jogo web inspirado no clássico Flappy Bird, mas com o tema do Mario! Pule so
 
 O Mario Jump é um jogo de plataforma simples onde você controla o Mario pulando sobre obstáculos (canos). O objetivo é sobreviver o máximo de tempo possível e acumular pontos passando pelos canos sem colidir com eles.
 
+## 🚀 Acesso Rápido
+
+- **🌐 Site Online**: [https://jumpgameproject.netlify.app/](https://jumpgameproject.netlify.app/)
+- 
 ### 🎮 Como Jogar
 
 - **Pular**: Pressione a tecla `ESPAÇO` ou clique no Mario para fazer ele pular
